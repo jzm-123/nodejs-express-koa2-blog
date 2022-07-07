@@ -1,7 +1,7 @@
 # nodejs-express-koa2-blog
 ## http-server -p 8001
-##npm start
-'''
+## npm start
+''' 
 worker_processes 2;
 events {
     worker_connections  1024;
@@ -25,5 +25,5 @@ http {
 			proxy_set_header Host $host;
 		}
     }
-}
+} 
 '''
